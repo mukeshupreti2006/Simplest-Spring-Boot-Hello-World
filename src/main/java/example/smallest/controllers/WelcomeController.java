@@ -20,7 +20,7 @@ public class WelcomeController {
 	}
 	
    @RequestMapping("/hello")
-    public String addEmployee(EmployeeVO employee)
+    public String welcome()
     {
         //application code
         return "Hi This is your first Spring application under Azure pipeline";
