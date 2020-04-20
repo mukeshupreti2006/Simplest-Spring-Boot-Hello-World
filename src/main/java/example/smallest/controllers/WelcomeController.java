@@ -18,4 +18,11 @@ public class WelcomeController {
 		
 		return "Hello FUCKING World!!!"; //"application/json" mean this is a text not a redirect
 	}
+	
+   @RequestMapping("/hello")
+    public String addEmployee(EmployeeVO employee)
+    {
+        //application code
+        return "Hi This is your first Spring application under Azure pipeline";
+    }
 }
