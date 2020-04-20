@@ -31,7 +31,7 @@ public class WelcomeController {
 	
    @GetMapping("/me")
     public @ResponseBody
-    ResponseEntity<String> get() {
+    ResponseEntity<String> me() {
         return new ResponseEntity<String>("Hello Mukesh Upreti", HttpStatus.OK);
     }
 }
